@@ -2,4 +2,4 @@ __pycache__/
 uv.lock
 pyproject.toml
 .venv/
-.python-verion
+.python-version

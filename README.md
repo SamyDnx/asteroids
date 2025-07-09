@@ -1,2 +1,0 @@
-# asteroids
-bootdev project

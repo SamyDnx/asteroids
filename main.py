@@ -4,6 +4,8 @@ from asteroid import Asteroid
 from asteroidfield import AsteroidField
 from shot import Shot
 
+from constants import *
+
 import pygame
 
 def main():
@@ -47,7 +49,7 @@ def main():
             for shot in shots:
                 if shot.check_collisions(item):
                     shot.kill()
-                    item.kill()
+                    item.split()
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
